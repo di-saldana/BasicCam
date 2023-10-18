@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_gallery"
+        android:icon="@drawable/gallery"
+        android:title="@string/title_gallery" />
+
+    <item
+        android:id="@+id/navigation_take_pic"
+        android:icon="@drawable/take_photo"
+        android:title="@string/title_take_pic" />
+
+    <item
+        android:id="@+id/navigation_swap_cam"
+        android:icon="@drawable/swap_camera"
+        android:title="@string/title_swap_cam" />
+
+</menu>

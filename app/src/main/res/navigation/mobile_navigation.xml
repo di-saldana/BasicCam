@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_gallery">
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="es.ua.eps.basiccam.ui.gallery.Gallery"
+        android:label="@string/title_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/navigation_take_pic"
+        android:name="es.ua.eps.basiccam.ui.take_pic.TakePicFragment"
+        android:label="@string/title_take_pic"
+        tools:layout="@layout/fragment_take_pic" />
+
+    <fragment
+        android:id="@+id/navigation_swap_cam"
+        android:name="es.ua.eps.basiccam.ui.swap_cam.SwapCamFragment"
+        android:label="@string/title_swap_cam"
+        tools:layout="@layout/fragment_swap_cam" />
+</navigation>
